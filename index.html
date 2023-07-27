@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Módulo 18</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./png-transparent-bird-logo-child-drawing-bird-child-animals-logo-thumbnail.png" class="icone">
+                </div>
+
+                <nav class="col" id="nav">
+                    <ul class="nav justify-content-end">
+                        <!-- (li.nav-item>a.nav-link)*4 -->
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Aves como Pets</h2>
+                    <p>Ter aves como pets pode ser uma experiência gratificante. Elas são animais fascinantes, com cores vibrantes, 
+                        cantos encantadores e inteligência surpreendente. A interação com aves é divertida, criando laços afetivos. 
+                        Cuidar delas requer compromisso, fornecendo dieta balanceada, ambiente seguro e estimulação mental adequada. 
+                        Com os cuidados corretos, as aves podem se tornar companheiras leais, trazendo beleza e alegria.
+                    </p>
+                    <a class="btn btn-lg btn-success" href="#produtos">Estou interessado!</a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="./empreendedorismo-aves-ornamentais.jpg" alt="imagem exemplo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section#produtos -->
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Pássaros</h2>
+
+                    <div class="card">
+                        <!-- img.img-fl -->
+                        <img src="./calopsita-no-cio.jpg" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Calopsita</h5>
+                            <p class="card-text"> Uma calopsita é um pet alegre e sociável, que traz diversão e companhia...</p>
+                                 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver mais</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- img.img-fl -->
+                        <img src="./cacatua-alba.jpg" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Cacatua</h5>
+                            <p class="card-text"> Cacatuas são pets exóticos, encantadores e inteligentes...</p>
+                                 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver mais</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <!-- img.img-fl -->
+                        <img src="./Probosciger_aterrimus-20030511.jpg" alt="imagem exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Papagaio</h5>
+                            <p class="card-text"> Papagaios são pets inteligentes e cativantes. Com sua habilidade...</p>
+                                 <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver mais</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>
+                        Se você está interessado em adotar uma ave e proporcionar a ela um lar amoroso, entre em contato conosco. 
+                        Temos aves disponíveis para adoção que estão em busca de um lar seguro e carinhoso. Nossa equipe terá prazer 
+                        em fornecer todas as informações necessárias e ajudá-lo(a) no processo de adoção. Entre em contato conosco para 
+                        saber mais sobre nossas aves disponíveis e como você pode fazer a diferença na vida de uma dessas adoráveis 
+                        criaturas aladas.
+                    </p>
+                </div>
+                <div class="col">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text"
+                            name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text"
+                            name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Adoção</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Calopsita</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Veja os detalhes:</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <td>Família</td>
+                                <td>Cacatuidae</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Peso</td>
+                                <td>1,2 kg</td>
+                            </tr>
+                            <tr>
+                                <td>Tamanho</td>
+                                <td>30 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Período de vida</td>
+                                <td>20 anos</td>
+                            </tr>
+                            <tr>
+                                <p> 
+                                    Uma calopsita é um pet alegre e sociável, que traz diversão e companhia. 
+                                    Com sua inteligência, curiosidade e habilidade de imitar sons, é encantadora. 
+                                    Requer espaço adequado em gaiolas e é uma ótima opção de animal de estimação carismático 
+                                    e de fácil convívio.
+                                </p>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cacatua</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Veja os detalhes:</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <td>Família</td>
+                                <td>Cacatuidae</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Peso</td>
+                                <td>1,5 kg</td>
+                            </tr>
+                            <tr>
+                                <td>Tamanho</td>
+                                <td>70 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Período de vida</td>
+                                <td>30 anos</td>
+                            </tr>
+                            <tr>
+                                <p>
+                                    Cacatuas são pets exóticos, encantadores e inteligentes. 
+                                    Com plumagem branca e crista proeminente, possuem personalidades cativantes, 
+                                    são brincalhonas e afetuosas. Precisam de atenção, estimulação mental e socialização adequadas. 
+                                    Podem aprender truques complexos e se tornar companheiras leais.
+                                </p>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Papagaio</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Veja os detalhes:</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <td>Família</td>
+                                <td>Psittacidae</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Peso</td>
+                                <td>0,5 kg</td>
+                            </tr>
+                            <tr>
+                                <td>Tamanho</td>
+                                <td>38 cm</td>
+                            </tr>
+                            <tr>
+                                <td>Período de vida</td>
+                                <td>50 anos</td>
+                            </tr>
+                            <tr>
+                                <p>
+                                    Papagaios são pets inteligentes e cativantes. Com sua habilidade de imitar sons e palavras, 
+                                    eles podem trazer diversão e interação. Requerem cuidados dedicados, incluindo espaço para 
+                                    voar e uma dieta equilibrada. Com os cuidados adequados, um papagaio pode se tornar um companheiro 
+                                    enérgico e encantador.
+                                </p>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"></a>
+            <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a>
+            <a href=""><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"/></a>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
